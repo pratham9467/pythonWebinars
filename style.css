@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header {
+    background: linear-gradient(90deg, white, #228ce3);
+    border-bottom: 1px solid lightgrey;
+    color: white;
+}
+
+.login {
+    border-left: 1px solid lightgrey;
+    border-radius: 0;
+}
+
+.container {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+.footer2 {
+    margin-top: 20px;
+    padding: 0;
+    border-bottom: 3px dashed #228ce3;
+    border-top: 3px dashed #228ce3;
+}
