@@ -27,3 +27,12 @@
     border-bottom: 3px dashed #228ce3;
     border-top: 3px dashed #228ce3;
 }
+
+.ilearning {
+    filter: invert(50%);
+}
+
+.ilearning:hover {
+    filter: invert(0);
+    transition: filter 0.7s;
+}
