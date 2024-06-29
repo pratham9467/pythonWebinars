@@ -14,7 +14,9 @@
 <main>
 
     <!--header-->
-    <div class="container header">
+    <div class="container header header2">
+
+
         <header class="d-flex justify-content-between py-3">
             <a class="d-flex align-items-center" href="/">
                 <img alt="logo" class="bi" height="39" role="img" src="assets/ilearning_logo.png" width="49"/>
@@ -55,9 +57,76 @@
             </div>
         </div>
     </div>
+    <!--    hero3-->
+    <div class="container col-12 col-xxl-8 ps-4 py-2 hero3" style="background-color: aliceblue">
+        <div class="row align-items-center g-lg-5 py-5 ps-4">
+            <div class="col-lg-7 text-center text-lg-start">
+                <h4 class="fw-bold lh-1 text-body-emphasis mb-3">DESCRIPTION</h4>
+                <p class="col-lg-10 fs-6">This ilearnings Webinar on 'Python Fundamentals' will help you understand the
+                    various concepts you must learn in Python with examples.</p>
+                <h5 class="pt-4 mb-2">AGENDA</h5>
+                <ul>
+                    <li class="pb-1 fw-semibold fs-6">Introduction to Python</li>
+                    <li class="pb-1 fw-semibold fs-6"> What is Python?</li>
+                    <li class="pb-1 fw-semibold fs-6">Features of Python</li>
+                    <li class="pb-1 fw-semibold fs-6"> Who uses Python?</li>
+                    <li class="pb-1 fw-semibold fs-6">Starting off with Python Basics</li>
+                    <li class="pb-1 fw-semibold fs-6"> Data Types</li>
+                    <li class="pb-1 fw-semibold fs-6">Operators</li>
+                    <li class="pb-1 fw-semibold fs-6">Flow Control</li>
+                    <li class="pb-1 fw-semibold fs-6"> Functions</li>
+                    <li class="pb-1 fw-semibold fs-6">File Handling</li>
+                    <li class="pb-1 fw-semibold fs-6">Hands-On</li>
+                </ul>
+                <div class="p-2 fw-semibold">
+                    <h6>Webinar Facts</h6>
+                    <ul class="fw-normal py-3" style="border: 1.3px dashed #228ce3">
+                        <li>Python celebrated its 30th anniversary in 2021</li>
+                        <li> Python is the preferred language for new technologies such as Data Science and Machine
+                            Learning.
+                        </li>
+                        <li> TIOBE index says, 'Python is one of the most popular programming languages in the world.'
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-8 mx-auto col-lg-4 p-4" style="background-color: whitesmoke">
+                <div class="faq-right p-0 mt-lg-4" id="contact-us">
+                    <div class="mt-0 p-0">
+                        <img alt="image" class="faq-img" height="150vh" src="./assets/Talk%20To%20Us.png" width="auto">
+                    </div>
+                    <form action="/submit" class="d-flex flex-column contact form-action" id="myForm" method="post">
+                        <label for="name">Name:</label>
+                        <input id="name" name="name" placeholder="Full Name*" required type="text"><span
+                            class="error" id="usernameError"></span>
+                        <label for="email">Email:</label>
+                        <input id="email" name="email" placeholder="Email*" required type="email"> <span class="error"
+                                                                                                         id="emailError"></span>
+                        <label for="contact">Contact:</label>
+                        <input id="contact" name="contact" placeholder="Mobile Number*" required type="number"><span
+                            class="error"
+                            id="contacterror"></span>
+                        <button id="submit" type="submit">Submit</button>
+                    </form>
+                    <div class="d-flex align-items-start"><label for="checkbox"></label><input
+                            class="ms-2 position-relative"
+                            id="checkbox" required
+                            type="checkbox">
+                        <p class="contact-details">By providing your
+                            contact
+                            details, you agree to our <a
+                                    href="#">Terms of
+                                Use</a> &
+                            <a href="#"> Privacy Policy</a>.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <!--    hero join community-->
     <div class="container my-5">
-        <div class="p-5 text-center bg-body-tertiary rounded-3 ">
+        <div class="p-5 py-3 pb-2 text-center bg-body-tertiary rounded-3 ">
             <img alt="logo" class="ilearning" height="100vh" src="./assets/ilearning_logo.png" width="100vw">
             <h1 class="text-body-emphasis">JOIN OUR MEETUP COMMUNITY</h1>
             <ul>

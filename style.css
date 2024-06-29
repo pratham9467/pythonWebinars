@@ -10,6 +10,21 @@
     color: white;
 }
 
+.navbar-collapse {
+    background-color: #228ce3;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero3 {
+    object-fit: contain;
+    overflow: hidden;
+}
+
 .login {
     border-left: 1px solid lightgrey;
     border-radius: 0;
@@ -18,7 +33,7 @@
 .container {
     max-height: 100%;
     max-width: 100%;
-    padding: 0 20px;
+    padding: 0 2vw;
 }
 
 .footer2 {
@@ -35,4 +50,198 @@
 .ilearning:hover {
     filter: invert(0);
     transition: filter 0.7s;
+}
+
+.faq-right {
+    box-shadow: 0 1px 0 rgba(159, 152, 152, 0.66);
+    height: fit-content;
+    width: 30vw;
+    background-color: #022c45;
+    border-top: 5px solid rgb(0, 169, 244);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+label {
+    display: none;
+}
+
+input {
+    padding: 0.2rem;
+    border: none;
+    border-radius: 5px;
+    height: 2.3rem;
+    width: 28vw;
+    margin: 1vh 1vw;
+}
+
+input::placeholder {
+    font-family: Roboto, serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.contact-details {
+    font-size: 0.8rem;
+    color: white;
+    padding: 1px 13px;
+    font-weight: 700;
+    margin: 2px 0;
+    background-color: #022c45;
+}
+
+#submit {
+    margin: 1vh 1vw;
+    height: 5vh;
+    width: 28vw;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#checkbox {
+    height: 2vh;
+    width: 2vw;
+}
+
+#submit:hover {
+    background-color: #f3dc43;
+}
+
+.form-action {
+    gap: 3vh;
+}
+
+@media (max-width: 768px) {
+    .faq-right {
+        height: fit-content;
+        width: 78vw;
+    }
+
+    .contact-details {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+
+    input {
+        padding: 0.2rem;
+        border: none;
+        border-radius: 5px;
+        height: 2.9rem;
+        width: 74vw;
+        margin: 1vh 2vw;
+    }
+
+    .faq-img {
+        height: auto;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .contact-details {
+        font-size: 0.8rem;
+        color: white;
+        padding: 1px 13px;
+        font-weight: 700;
+        margin: 2px 0;
+        background-color: #022c45;
+    }
+
+    #submit {
+        margin: 1vh 2vw;
+        height: 7vh;
+        width: 74vw;
+        border: none;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    #checkbox {
+        height: 2vh;
+        width: 2vw;
+    }
+
+    #submit:hover {
+        background-color: #f3dc43;
+    }
+
+    .form-action {
+        gap: 3vh;
+    }
+
+    .btn {
+        font-size: 17px;
+        height: 8vh;
+        width: 42vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .faq-right {
+        width: 90vw;
+    }
+
+    .contact-details {
+        font-size: 0.6rem; /* Further adjust font size for very small screens */
+    }
+
+    input {
+        padding: 0.2rem;
+        border: none;
+        border-radius: 5px;
+        height: 2.9rem;
+        width: 84vw;
+        margin: 1vh 2vw;
+    }
+
+    input::placeholder {
+        font-family: Roboto, serif;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .contact-details {
+        font-size: 0.8rem;
+        color: white;
+        padding: 1px 13px;
+        font-weight: 700;
+        margin: 2px 0;
+        background-color: #022c45;
+    }
+
+    #submit {
+        margin: 1vh 2vw;
+        height: 5vh;
+        width: 84vw;
+        border: none;
+        border-radius: 5px;
+        background-color: white;
+    }
+
+    #checkbox {
+        height: 2vh;
+        width: 2vw;
+    }
+
+    #submit:hover {
+        background-color: #f3dc43;
+    }
+
+    .form-action {
+        gap: 1.5vh;
+    }
+
+    .btn {
+        font-size: 15px;
+        height: 6vh;
+        width: 37vw;
+    }
+
+    .header {
+        opacity: 0;
+    }
+
+    .header2 {
+        opacity: 100%;
+    }
 }
