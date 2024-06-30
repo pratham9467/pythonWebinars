@@ -53,6 +53,12 @@ label {
     display: none;
 }
 
+.login {
+    color: #fffdfd;
+    justify-content: center;
+    border: 1.5px solid royalblue;
+}
+
 input {
     padding: 0.2rem;
     border: none;
@@ -177,6 +183,12 @@ input::placeholder {
         width: 42vw;
     }
 
+    .login {
+        color: royalblue;
+        justify-content: center;
+        border: 1.5px solid royalblue;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -254,5 +266,11 @@ input::placeholder {
 
     .header2 {
         opacity: 100%;
+    }
+
+    .login {
+        color: royalblue;
+        justify-content: center;
+        border: 1.5px solid royalblue;
     }
 }
