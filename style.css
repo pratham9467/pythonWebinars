@@ -4,8 +4,10 @@
     text-decoration: none;
 }
 
-.navbar-collapse {
-    background-color: #228ce3;
+.intro {
+    font-size: 3rem;
+    color: #228ce3;
+    align-items: center;
 }
 
 .hero3 {
@@ -33,7 +35,8 @@
 
 .ilearning:hover {
     filter: invert(0);
-    transition: filter 0.7s;
+    transition: filter 0.7s, scale 0.7s;
+    scale: 1.1;
 }
 
 .faq-right {
@@ -90,6 +93,7 @@ input::placeholder {
 
 #submit:hover {
     background-color: #f3dc43;
+
 }
 
 .form-action {
@@ -182,6 +186,14 @@ input::placeholder {
 
     .contact-details {
         font-size: 0.6rem; /* Further adjust font size for very small screens */
+    }
+
+    .intro {
+        align-items: center;
+        height: 10vh;
+        width: fit-content;
+        font-size: 2rem;
+        color: #228ce3;
     }
 
     input {
