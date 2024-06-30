@@ -22,10 +22,10 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
   }
   if (contact.value.length < 0) {
     valid = false;
-    document.getElementById("contacterror").textContent =
+    document.getElementById("contactError").textContent =
       "Please enter a valid contact number.";
   } else {
-    document.getElementById("contacterror").textContent = "";
+    document.getElementById("contactError").textContent = "";
   }
 
   if (!valid) {

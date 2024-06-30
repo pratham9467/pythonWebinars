@@ -109,7 +109,12 @@ input::placeholder {
 }
 
 .form-action {
-    gap: 3vh;
+    gap: 1.4vh;
+}
+
+.error {
+    font-size: larger;
+
 }
 
 @media (max-width: 768px) {
