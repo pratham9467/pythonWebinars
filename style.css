@@ -4,20 +4,8 @@
     text-decoration: none;
 }
 
-.header {
-    background: linear-gradient(90deg, white, #228ce3);
-    border-bottom: 1px solid lightgrey;
-    color: white;
-}
-
 .navbar-collapse {
     background-color: #228ce3;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 .hero3 {
@@ -25,10 +13,6 @@ html, body {
     overflow: hidden;
 }
 
-.login {
-    border-left: 1px solid lightgrey;
-    border-radius: 0;
-}
 
 .container {
     max-height: 100%;
@@ -117,6 +101,10 @@ input::placeholder {
 
 }
 
+#navbarColor03 {
+    background-color: transparent;
+}
+
 @media (max-width: 768px) {
     .faq-right {
         height: fit-content;
@@ -158,6 +146,12 @@ input::placeholder {
         border: none;
         border-radius: 5px;
         background-color: white;
+    }
+
+    .agenda {
+        text-align: left;
+        list-style: none;
+        padding-left: 3vw;
     }
 
     #checkbox {
